@@ -7,7 +7,7 @@ public class Boat extends Vehicule {
 
 	@Override
 	public String doStuff() {
-		return "glou glou !";
+		return "je suis " + this.getBrand() + " et je fais glou glou !";
 	}
 
 }
